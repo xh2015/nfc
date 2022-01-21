@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">费哲NFC工具</string>
+    <string name="write_to_tag">写入扫描数据</string>
+    <string name="read_to_tag">读取数据</string>
+    <string name="scan_code">扫描二维码</string>
+</resources>

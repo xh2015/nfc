@@ -1,0 +1,8 @@
+#This is git ignore.
+.gradle
+/local.properties
+/.idea/
+/build
+build/
+*.iml
+

@@ -1,0 +1,136 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 1.0一级按钮样式 -->
+    <style name="level1_btn_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/level1_button_text_size</item>
+        <item name="android:textColor">@color/main_white</item>
+        <item name="android:background">@drawable/level1_btn_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/level1_button_height</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+    
+    <!-- 1.0二级按钮样式 -->
+    <style name="level2_btn_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/level2_button_text_size</item>
+        <item name="android:textColor">@color/main_black</item>
+        <item name="android:background">@drawable/level2_btn_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/level2_button_height</item>
+        <item name="android:paddingLeft">3dip</item>
+        <item name="android:paddingRight">3dip</item>
+    </style>
+    
+    <style name="level1_btn_textview_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/level1_button_text_size</item>
+        <item name="android:textColor">@color/main_blue</item>
+        <item name="android:background">@drawable/level1_btn_textview_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/level1_button_textview_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>    
+
+    <!-- 跳转文本样式 -->
+    <style name="link_tv_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/link_textview_text_size</item>
+        <item name="android:textColor">@drawable/link_tv_selector</item>
+    </style>
+    
+    <!-- 1.0一级文本样式 -->
+    <style name="level1_tv_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/level1_textview_text_size</item>
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+
+    <!-- 1.0二级文本样式 -->
+    <style name="level2_tv_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/level2_textview_text_size</item>
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+    
+    <!-- 1.0三级文本样式 -->
+    <style name="level3_tv_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/level3_textview_text_size</item>
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>   
+    
+    <!-- 1.0menu文本样式 -->
+    <style name="menu_tv_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/level1_textview_text_size</item>
+        <item name="android:textColor">@color/main_secondary</item>
+    </style>
+    
+    <!-- Alert dialog library -->
+        <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/alert_dialog_blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    
+    <style name="progressBarStyleMedium">
+　　        <item name="android:indeterminateDrawable">@drawable/progress_medium</item>
+　　        <item name="android:minWidth">40dip</item>
+　　        <item name="android:maxWidth">40dip</item>
+　　        <item name="android:minHeight">40dip</item>
+　　        <item name="android:maxHeight">40dip</item>
+    </style>
+    
+    <style name="progressBarStyleLittle">
+　　        <item name="android:indeterminateDrawable">@drawable/progress_medium</item>
+　　        <item name="android:minWidth">20dip</item>
+　　        <item name="android:maxWidth">20dip</item>
+　　        <item name="android:minHeight">20dip</item>
+　　        <item name="android:maxHeight">20dip</item>
+    </style>  
+    
+    <style name="pulltorefresh_tv_hint_hint_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_hint</item>
+        <item name="android:textColor">@color/main_hint</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <!-- 日期和时间选择对话框 -->
+	<style name="time_label">
+        <item name="android:textSize">@dimen/time_label_size</item>
+        <item name="android:textColor">@color/numbers_text_color</item>
+    </style>
+
+    <style name="ampm_label">
+        <item name="android:textSize">@dimen/ampm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/ampm_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="day_of_week_label_condensed" />
+
+    <style name="defaultColorTheme">
+        <item name="headerBackgroundColor">@color/calendar_header</item>
+        <item name="hightlightedTextColor">@color/datetimepicker_date_picker_selector</item>
+        <item name="buttonBackground">@drawable/datetimepicker_done_background_color</item>
+        <item name="buttonTextColor">@color/datetimepicker_done_text_color</item>
+        <item name="circleHighlightColor">@color/circle_background</item>
+        <item name="defaultTextColor">@color/date_picker_text_normal</item>
+        <item name="selectedDayTextSize">@dimen/selected_date_day_size</item>
+        <item name="selectedMonthTextSize">@dimen/selected_date_month_size</item>
+        <item name="selectedYearTextSize">@dimen/selected_date_year_size</item>
+    </style>
+</resources>

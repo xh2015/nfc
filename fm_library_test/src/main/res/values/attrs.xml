@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom view attributes -->
+    <declare-styleable name="ClearableEditText">
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:enabled" />
+    </declare-styleable>
+    <declare-styleable name="SettingItemView">
+        <attr name="settingitem_nameText" format="string" />
+        <attr name="settingitem_hintText" format="string" />
+        <attr name="settingitem_iconSrc" format="integer" />
+        <attr name="settingitem_hintShow" format="boolean" />
+        <attr name="settingitem_iconShow" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="EditItemView">
+        <attr name="edititem_nameText" format="string" />
+        <attr name="edititem_hintText" format="string" />
+        <attr name="edititem_minems" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="EditMultiLineView">
+        <attr name="editmultiline_nameText" format="string" />
+        <attr name="editmultiline_hintText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ErrorView">
+        <attr name="error_view_text" format="string" />
+        <attr name="error_view_icon" format="integer" />
+        <attr name="error_view_text_color" format="color" />
+    </declare-styleable>
+
+    <!-- tab page indicator attrs -->
+    <declare-styleable name="AnimateTabPageIndicator">
+        <attr name="textColor" format="reference|color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="tabIndicatorSelectedColor" format="color" />
+        <attr name="selectedHeight" format="dimension" />
+        <attr name="unSelectedHeight" format="dimension"></attr>
+        <attr name="tabIndicatorUnSelectedColor" format="color" />
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+    </declare-styleable>
+
+    <!-- Alert dialog library -->
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0" />
+            <enum name="y" value="1" />
+            <enum name="z" value="2" />
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction" />
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    <declare-styleable name="ProgressWheel">
+        <attr name="progressIndeterminate" format="boolean" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="float" />
+        <attr name="barSpinCycleTime" format="integer" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="fillRadius" format="boolean" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <!-- Refreshlistview -->
+    <declare-styleable name="PulltorefreshCustomProgressBar">
+        <attr name="ringradius" format="dimension" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="pullheaderBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="pullmode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 日期和时间选择对话框 -->
+    <declare-styleable name="DateTimePicker">
+        <attr name="headerBackgroundColor" format="reference|color"/>
+        <attr name="hightlightedTextColor" format="reference|color"/>
+        <attr name="buttonBackground" format="reference|color"/>
+        <attr name="buttonTextColor" format="reference|color"/>
+        <attr name="circleHighlightColor" format="reference|color"/>
+        <attr name="defaultTextColor" format="reference|color"/>
+        <attr name="selectedDayTextSize" format="reference|dimension"/>
+        <attr name="selectedMonthTextSize" format="reference|dimension"/>
+        <attr name="selectedYearTextSize" format="reference|dimension"/>
+    </declare-styleable>
+    
+    <!-- PagerSlidingTabStrip -->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="PSTindicatorColor" format="color" />
+        <attr name="PSTunderlineColor" format="color" />
+        <attr name="PSTdividerColor" format="color" />
+        <attr name="PSTindicatorHeight" format="dimension" />
+        <attr name="PSTunderlineHeight" format="dimension" />
+        <attr name="PSTdividerPadding" format="dimension" />
+        <attr name="PSTtabPaddingLeftRight" format="dimension" />
+        <attr name="PSTscrollOffset" format="dimension" />
+        <attr name="PSTtabBackground" format="reference" />
+        <attr name="PSTshouldExpand" format="boolean" />
+        <attr name="PSTtextAllCaps" format="boolean" />
+    </declare-styleable>
+</resources>

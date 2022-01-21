@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="61dp"
+    android:paddingBottom="15dip"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical" >
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <com.facilityone.wireless.fm_library.pulltorefresh.CustomProgressBar
+                android:id="@+id/custom_pb"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/refreshlistview_comp_start"
+                tc:ringColor="@color/pulltorefresh_ring"
+                tc:ringWidth="2dip"
+                tc:ringradius="13.5dip" />
+
+            <ImageView
+                android:id="@+id/animation_iv"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/pulltorefresh_animation" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pull_to_refresh_text"
+            style="@style/pulltorefresh_tv_hint_hint_style"
+            android:layout_width="100dp"
+            android:text="@string/pull_to_refresh_pull_down_label" />
+    </LinearLayout>
+
+</RelativeLayout>

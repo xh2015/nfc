@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pull_to_refresh_pull_down_label">下拉即可刷新</string>
+    <string name="pull_to_refresh_pull_up_label">上拉即可刷新</string>
+    <string name="pull_to_refresh_release_label">松手即可更新</string>
+    <string name="pull_to_refresh_refreshing_label">努力加载中</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh&#8230;</string>
+</resources>

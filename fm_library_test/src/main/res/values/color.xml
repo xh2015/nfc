@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Qrcode use -->
+    <color name="qrcode_result_view">#b0000000</color>
+    <color name="qrcode_viewfinder_mask">#60000000</color>
+    <color name="qrcode_possible_result_points">#c0ffff00</color>
+
+    <!-- Custom view color -->
+    <color name="main_black">#000000</color>
+    <color name="custom_main_color">#000000</color>
+    <color name="main_white">#ffffffff</color>
+    <color name="main_grey">#ff696969</color>
+    <color name="main_grey_new">#d5d5d5</color>
+    <color name="main_secondary" >#ff696969</color>
+    <color name="main_green">#ff50b400</color>
+    <color name="main_line" >#ffdcdcdc</color>
+    <color name="main_light_grey">#F5F5F5</color>
+    <color name="main_item_grey">#F2F2F2</color>
+    <color name="main_light_blue">#7799FF</color>
+    <color name="main_red">#FF6666</color>
+    <color name="main_blue">#ff00AAFF</color>
+    <color name="main_orange">#ff9900</color>
+    
+    <color name="link_tv_normal_color">#4169E1</color>
+    <color name="link_tv_focus_color">#708090</color>
+    
+    <color name="home_tabhost_bg">#FAFBFE</color>
+    
+    <color name="note_begin_item_bg">#FF6666</color>
+    <color name="in_process_item_bg">#FFCC00</color>
+    <color name="finish_item_bg">#00CC00</color>
+    
+    <color name="work_job_status_created_color">#FF6666</color>
+    <color name="work_job_status_ass_color">#FF6666</color>
+    <color name="work_job_status_do_color">#FFCC00</color>
+    <color name="work_job_status_waiting_color">#FF6666</color>
+    <color name="work_job_status_com_color">#00CC00</color>
+    <color name="work_job_status_stop_color">#FF6666</color>
+    <color name="work_job_status_close_color">#FF6666</color>
+    <color name="work_job_status_true_color">#FF6666</color>
+    <color name="work_job_status_false_color">#FF6666</color>
+    <color name="work_job_status_com_1_color">#FF6666</color>
+    <color name="work_job_status_com_2_color">#FF6666</color>
+    <color name="work_job_status_com_3_color">#FF6666</color>
+    <color name="work_job_status_wait_1_color">#FF6666</color>
+    <color name="work_job_status_wait_2_color">#FF6666</color>
+    <color name="work_job_status_wait_3_color">#FF6666</color>
+    
+    <!-- Alert dialog library -->
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    
+    <color name="pulltorefresh_ring">#ffc0c4ca</color><!-- 下拉刷新圆圈的颜色 -->
+    <color name="pulltorefresh_color_dark_grey">#ff7f7f7f</color>
+     
+     <!-- 1.0 主要色值 -->
+     <color name="main_primary" >#ff333333</color><!-- 深黑，用于标题，正文 -->
+     <color name="main_hint" >#ff999999</color><!-- 用于说明文字，提示文案 -->
+     <color name="main_disable" >#ffcccccc</color><!-- 用于输入框默认提示 -->
+     
+     <!-- 1.0 bg色值 -->
+     <color name="bg_action_bar" >#fff5f5f5</color><!-- 用于导航栏 -->
+     <color name="bg_expander" >#fff6f8fb</color><!-- 用户cell展开后的背景色 -->
+     <color name="bg_mask" >#78000000</color><!-- 蒙层色，50%纯黑 -->
+     <color name="bg_main" >#ffe9ecf1</color><!-- 用于大背景色 -->
+     <color name="bg_pressed" >#ffededed</color><!-- 用于cell按压色 --><color name="white">#ffffff</color>
+    
+    <!-- 时间日期选择对话框颜色 -->
+    <color name="circle_background">#f2f2f2</color>
+    <color name="line_background">#cccccc</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="done_text_color_normal">#000000</color>
+    <color name="done_text_color_disabled">#cccccc</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+    <color name="transparent_black">#7f000000</color>
+    <color name="blue">#33b5e5</color>
+    <color name="blue_focused">#c1e8f7</color>
+    <color name="neutral_pressed">#33999999</color>
+    <color name="darker_blue">#0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff00AAFF</color>
+    <color name="date_picker_view_animator">#f2f2f2</color>
+    <color name="calendar_selected_date_text">#ffd1d2d4</color>
+	
+    <!-- Colors for red theme -->
+    <color name="red">#ff3333</color>
+    <color name="red_focused">#853333</color>
+    <color name="light_gray">#404040</color>
+    <color name="dark_gray">#363636</color>
+    <color name="line_dark">#808080</color>
+    <color name="done_text_color_dark_normal">#ffffff</color>
+    <color name="done_text_color_dark_disabled">#888888</color>
+    <color name="done_disabled_dark">#bfbfbf</color>
+    
+    <!-- PagerSliding tab color -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+</resources>
