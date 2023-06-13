@@ -1,5 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
+    ext.kotlin_version = '1.7.10'
     repositories {
         maven { url "https://maven.aliyun.com/repository/google"}
         maven { url "https://maven.aliyun.com/repository/public" }
@@ -11,9 +12,20 @@ buildscript {
             name 'Google'
         }
         jcenter()
+        maven { url 'https://storage.zego.im/maven' }
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url 'https://www.jitpack.io' }
+        maven { url 'https://raw.githubusercontent.com/TalkingData/SDKMaven/master/' }
+        google()
+        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath "com.android.tools.build:gradle:4.1.3"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.huawei.agconnect:agcp:1.6.4.300'
+        classpath 'com.tendcloud:codeless-gradle-plugin:0.0.4'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
     }
 }
 
@@ -29,5 +41,54 @@ allprojects {
             name 'Google'
         }
         jcenter()
+
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven {
+            allowInsecureProtocol = true
+            url 'http://developer.huawei.com/repo/'
+        }
+        maven { url "https://jitpack.io" }
+        maven {
+            allowInsecureProtocol = true
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/repository/central'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/repository/google'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'http://maven.faceunity.com/repository/maven-public/'
+        }
+        maven { url 'https://repo1.maven.org/maven2/' }  //友盟
+        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+        maven {
+            url "https://nexus-sdk.cm253.com/repository/maven-public/"//闪验
+        }
+        google()
+        mavenCentral()
     }
+
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xmaxerrs" << "1000"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
